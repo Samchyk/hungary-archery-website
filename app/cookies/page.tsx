@@ -4,7 +4,7 @@ import { CookieBanner } from '@/components/cookie-banner'
 
 export const metadata = {
   title: 'Cookie Szabályzat',
-  description: 'Az Íjászat Magyarország cookie szabályzata és sütik használata.',
+  description: 'Az Íjászat Hungaryarchery cookie szabályzata és sütik használata.',
 }
 
 export default function CookiesPage() {
@@ -35,7 +35,7 @@ export default function CookiesPage() {
             <div>
               <h2 className="text-2xl font-bold mb-4">2. Milyen Sütik Használunk?</h2>
               <p className="text-foreground/80 mb-4">
-                Az Íjászat Magyarország weboldal az alábbi típusú sütikket használ:
+                Az Íjászat Hungaryarchery weboldal az alábbi típusú sütikket használ:
               </p>
               <div className="space-y-4">
                 <div>
@@ -93,7 +93,7 @@ export default function CookiesPage() {
             <div>
               <h2 className="text-2xl font-bold mb-4">6. Adatvédelem</h2>
               <p className="text-foreground/80 mb-4">
-                Az Íjászat Magyarország komolyan veszi az adatvédelmet. Az összes gyűjtött adatot az adatvédelmi szabályoknak megfelelően kezeljük.
+                Az Íjászat Hungaryarchery komolyan veszi az adatvédelmet. Az összes gyűjtött adatot az adatvédelmi szabályoknak megfelelően kezeljük.
               </p>
             </div>
 

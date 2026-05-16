@@ -204,17 +204,17 @@ Gyakori hiba:
   },
   {
     id: 'ijaszati-versenyei-magyarorszagon',
-    title: 'Íjászati Versenyei Magyarországon',
+    title: 'Íjászati Versenyei Hungaryarcheryon',
     excerpt: 'Ismerd meg a magyar íjászati versenyek típusait és rendezésének módját.',
     author: 'Verseny Szervező',
     date: '2026-04-20',
     category: 'Versenysport',
     readTime: 10,
-    content: `# Íjászati Versenyei Magyarországon
+    content: `# Íjászati Versenyei Hungaryarcheryon
 
 ## Versenytípusok
 
-Magyarországon különféle versenyi típusokat rendeznek:
+Hungaryarcheryon különféle versenyi típusokat rendeznek:
 - Helyi klub versenyei
 - Regionális bajnokságok
 - Nemzeti és nemzetközi versenyei

@@ -57,7 +57,7 @@ export default function AboutPage() {
             <div className="space-y-6 mb-12">
               <h2 className="section-heading">A Közösség Misszója</h2>
               <p className="prose-text">
-                Az Íjászat Magyarország egy dedikált közösség, amely az íjászat oktatása, népszerűsítése és hagyomány megőrzésére törekszik. Hiszünk, hogy az íjászat több, mint egy sport – ez egy művészet, egy tudomány és egy szellemi gyakorlat.
+                Az Íjászat Hungaryarchery egy dedikált közösség, amely az íjászat oktatása, népszerűsítése és hagyomány megőrzésére törekszik. Hiszünk, hogy az íjászat több, mint egy sport – ez egy művészet, egy tudomány és egy szellemi gyakorlat.
               </p>
               <p className="prose-text">
                 A platformunk célja, hogy egy központi helyet biztosítson minden íjásznak, függetlenül attól, hogy kezdő vagy haladó versenyző. Szeretnénk inspirálni az új generációt és segíteni a közösség fejlődésében.

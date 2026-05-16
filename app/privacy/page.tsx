@@ -4,7 +4,7 @@ import { CookieBanner } from '@/components/cookie-banner'
 
 export const metadata = {
   title: 'Adatvédelmi Szabályzat',
-  description: 'Az Íjászat Magyarország adatvédelmi szabályzata és felhasználói adatok kezelése.',
+  description: 'Az Íjászat Hungaryarchery adatvédelmi szabályzata és felhasználói adatok kezelése.',
 }
 
 export default function PrivacyPage() {
@@ -28,7 +28,7 @@ export default function PrivacyPage() {
             <div>
               <h2 className="text-2xl font-bold mb-4">1. Bevezetés</h2>
               <p className="text-foreground/80 mb-4">
-                Az Íjászat Magyarország weboldal (a továbbiakban: "Weboldal") tiszteletben tartja az adatvédelmét, és elkötelezett az Ön személyes adatainak védelme iránt. Ez a szabályzat ismerteti, hogyan gyűjtünk, használunk és védelmezünk az Ön adatait.
+                Az Íjászat Hungaryarchery weboldal (a továbbiakban: "Weboldal") tiszteletben tartja az adatvédelmét, és elkötelezett az Ön személyes adatainak védelme iránt. Ez a szabályzat ismerteti, hogyan gyűjtünk, használunk és védelmezünk az Ön adatait.
               </p>
             </div>
 

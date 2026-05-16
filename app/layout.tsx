@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Íjászat Magyarországon - Modern Íjsport Platform',
+  title: 'Íjászat Hungaryarcheryon - Modern Íjsport Platform',
   description: 'Fedezze fel a magyar íjászat világát. Képzés, történelem, technika és közösség egy helyen.',
   keywords: 'íjászat, íjsport, magyar, sportok, edzés',
 }
