@@ -73,7 +73,7 @@ export default function HomePage() {
                 Fedezd fel az egyik legöregebb magyar tradíciónak számító sportot. Képzés, technika, közösség – egy helyen.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-                <Link href="/training" className="px-6 py-3 bg-accent text-accent-foreground font-semibold rounded-lg hover:bg-accent/90 transition-colors shadow-lg inline-flex items-center gap-2 justify-center">
+                <Link href="/training" className="px-6 py-3 bg-white text-black font-semibold rounded-lg hover:bg-white/90 transition-colors shadow-lg inline-flex items-center gap-2 justify-center">
                   Kezdj el tanulni <ArrowRight className="w-4 h-4" />
                 </Link>
                 <Link href="/blog" className="px-6 py-3 bg-white text-black font-semibold rounded-lg hover:bg-white/90 transition-colors shadow-lg inline-flex items-center gap-2 justify-center">
