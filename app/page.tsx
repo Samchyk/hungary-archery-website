@@ -37,17 +37,14 @@ export default function HomePage() {
     {
       title: 'Az Íjászat Alapjai',
       excerpt: 'Ismerkedj meg az íjászat alapvető technikáival és biztonsági szabályaival.',
-      date: '2026. május',
     },
     {
       title: 'Olimpiai Íjászat',
       excerpt: 'Hogyan fejlődött az íjászat az olimpiai sportok között és mik a versenysportok legfontosabb jellegzetességei.',
-      date: '2026. május',
     },
     {
       title: 'Tradicionális Technikák',
       excerpt: 'Klasszikus íjászati módszerek és gyakorlatok, amelyek közvetlenül a múltból eredeztethetők.',
-      date: '2026. május',
     },
   ]
 
@@ -65,21 +62,21 @@ export default function HomePage() {
               className="object-cover"
               priority
             />
-            <div className="absolute inset-0 bg-black/40" />
+            <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/55 to-black/70" />
           </div>
           <div className="absolute inset-0 flex items-center justify-center z-10">
             <div className="text-center space-y-6 md:space-y-8 px-4">
-              <h1 className="hero-heading text-white">
+              <h1 className="hero-heading text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.7)]">
                 Az Íjászat Világa
               </h1>
-              <p className="section-subheading text-white/90 max-w-2xl mx-auto">
+              <p className="section-subheading text-white max-w-2xl mx-auto drop-shadow-[0_1px_8px_rgba(0,0,0,0.6)]">
                 Fedezd fel az egyik legöregebb magyar tradíciónak számító sportot. Képzés, technika, közösség – egy helyen.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-                <Link href="/training" className="button-primary inline-flex items-center gap-2 justify-center">
+                <Link href="/training" className="px-6 py-3 bg-accent text-accent-foreground font-semibold rounded-lg hover:bg-accent/90 transition-colors shadow-lg inline-flex items-center gap-2 justify-center">
                   Kezdj el tanulni <ArrowRight className="w-4 h-4" />
                 </Link>
-                <Link href="/blog" className="button-secondary inline-flex items-center gap-2 justify-center">
+                <Link href="/blog" className="px-6 py-3 bg-white text-black font-semibold rounded-lg hover:bg-white/90 transition-colors shadow-lg inline-flex items-center gap-2 justify-center">
                   Fedezz fel cikkeket <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>
@@ -144,7 +141,6 @@ export default function HomePage() {
               {blogPosts.map((post) => (
                 <div key={post.title} className="card-subtle group hover:shadow-lg transition-all">
                   <div className="flex flex-col h-full">
-                    <time className="text-sm text-muted-foreground mb-2">{post.date}</time>
                     <h3 className="text-lg font-bold mb-3 group-hover:text-accent transition-colors">
                       {post.title}
                     </h3>

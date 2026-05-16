@@ -18,7 +18,7 @@ export default function CookiesPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h1 className="hero-heading mb-6">Cookie Szabályzat</h1>
             <p className="section-subheading max-w-2xl">
-              Utolsó frissítés: {currentYear} {new Date().getDate()}.
+              Utolsó frissítés: {currentYear}
             </p>
           </div>
         </section>

@@ -4,7 +4,7 @@ import { CookieBanner } from '@/components/cookie-banner'
 import { getBlogPost, getAllBlogPosts } from '@/lib/blog-data'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import { ArrowLeft, Calendar, Clock, User } from 'lucide-react'
+import { ArrowLeft, Clock } from 'lucide-react'
 
 export async function generateStaticParams() {
   const posts = getAllBlogPosts()
@@ -52,18 +52,6 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               </span>
               <h1 className="hero-heading">{post.title}</h1>
               <div className="flex flex-wrap items-center gap-6 text-muted-foreground pt-4">
-                <div className="flex items-center gap-2">
-                  <User className="w-4 h-4" />
-                  {post.author}
-                </div>
-                <div className="flex items-center gap-2">
-                  <Calendar className="w-4 h-4" />
-                  {new Date(post.date).toLocaleDateString('hu-HU', {
-                    year: 'numeric',
-                    month: 'long',
-                    day: 'numeric',
-                  })}
-                </div>
                 <div className="flex items-center gap-2">
                   <Clock className="w-4 h-4" />
                   {post.readTime} perc olvasás
